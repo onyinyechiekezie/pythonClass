@@ -1,0 +1,1 @@
+The program prints a 10 * 10 grid of '<' and '>' characters, alternating between rows.
