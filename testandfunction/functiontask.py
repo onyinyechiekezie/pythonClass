@@ -15,6 +15,15 @@ def get_divide_or_square(number):
 	if number == " ":
 		return(TypeError)
 
+
+def get_futureinvestment(futureinvestment):
+	import math
+	futureinvestment = investment_amount * (1 * monthly_interest)**12
+	return futureinvestment
+	
+
+
+
 	
 
 

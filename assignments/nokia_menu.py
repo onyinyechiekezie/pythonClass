@@ -129,7 +129,7 @@ match answer:
 			case 3:print("Security settings")
 			print("1.PIN code request\n2.Call barring service\n3.Fixed dialling\n4.Closed user group\n5.Phone security\n6.Change access codes\n")
 			securitySettings=int(input('Enter an option: '))
-			match securitySettings
+			match securitySettings:
 				case 1:print("PIN code request")
 				case 2:print("Call barring service")
 				case 3:print("Fixed dialling")
@@ -138,8 +138,8 @@ match answer:
 				case 6:print("Change access codes")
 			case 4:print("Restore factory settings\n")
 			print("Restore factory settings\n")
-			restoreFactorySettings=int(input('Enter an option
-			match restoreFactorySettings 
+			restoreFactorySettings=int(input('Enter an option))
+			match restoreFactorySettings: 
 				case 1:print("Restore factory settings")
    
 	case 7:
@@ -149,58 +149,40 @@ match answer:
 			case 1:print("Restore factory settings")
 
 	case 8:print("Games\n")
-		games=in
-		switch(games)  {
-		case 1:System.out.println("Games");     
-			break;
-		}break;
-   case 9:System.out.print("Calculator\n");
-	int calculator = input.nextInt();
-		switch(calculator)  {
-		case 1:System.out.println("calculator");
-			break;
-		}break;
-   case 10:System.out.print("Reminders\n");
-	int reminders = input.nextInt();
-		switch(reminders)  {
-		case 1:System.out.println("reminders");
-			break;
-		}break;
-   case 11: System.out.print("Clock\n");
-	    System.out.print("1.Alarm clock\n2.Clock settings\n3.Date setting\n4.Stopwatch\n5.Countdown timer\n6.Auto update of date and time\n");
-	    int clock = input.nextInt();
-		switch(clock)  {
-		case 1:System.out.println("Alarm clock");
-			break;
-		case 2:System.out.println("Clock settings");
-			break;
-		case 3:System.out.println("Date setting");
-			break;
-		case 4:System.out.println("Stopwatch");
-			break;
-		case 5:System.out.println("Countdown timer");
-			break;
-		case 6:System.out.println("Auto update of date and time");
-			break;
-		}break;
-   case 12: System.out.print("Profile");
-            int profile = input.nextInt();
-		switch(profile)  {
-		case 1:System.out.println("Profile");
-			break;
-		}break;
-   case 13: System.out.print("SIM services");
-            int simServices = input.nextInt();
-		switch(simServices)  {
-		case 1:System.out.println("SIM services");
-			break;
-		}break;
-	  
-	  }	
-
-
-  }
-}
+		games=int(input('Enter an option'))
+		match games:
+			case 1:print("Games")     
+			
+	case 9:print("Calculator\n")
+		calculator=int(input('Enter an option: '))
+		match calculator:
+			case 1:print("calculator")
+			
+	case 10:print("Reminders\n")
+		reminders=int(input('Enter an option: '))
+		match reminders
+			case 1:print("reminders")
+			
+	case 11:print("Clock\n")
+		print("1.Alarm clock\n2.Clock settings\n3.Date setting\n4.Stopwatch\n5.Countdown timer\n6.Auto update of date and time\n")
+		clock=int(input('Enter an option: '))
+		match clock:  
+			case 1:print("Alarm clock")
+			case 2:print("Clock settings")
+			case 3:print("Date setting")
+			case 4:print("Stopwatch")
+			case 5:print("Countdown timer")
+			case 6:print("Auto update of date and time")
+			
+	case 12: print("Profile")
+		profile=int(input('Enter an option: '))
+		match profile:
+			case 1:print("Profile")
+			
+	case 13: print("SIM services")
+		simServices=int(input('Enter an option: '))
+		match simServices:
+			case 1:print("SIM services")
  
 
 	  
