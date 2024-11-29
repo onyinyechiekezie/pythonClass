@@ -1,0 +1,1 @@
+If u keep pushing onto a stack without enough popping, the stack will continueto grow in size. The memory allocated for the stack will keep increasing as more elements are pushed into it.

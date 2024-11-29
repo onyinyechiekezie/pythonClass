@@ -1,0 +1,11 @@
+declare sum = 0
+
+
+loop while (condition is true){
+input new number
+sum = sum + number
+ask user if he want to continue (yes/no)
+	if yes condition = true
+	else condition = false
+
+}

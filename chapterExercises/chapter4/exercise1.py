@@ -1,0 +1,1 @@
+The 'else clause' is not needed because elif, which also means 'else if' is used to check for another condition especially when the first if statement isn't true. 
